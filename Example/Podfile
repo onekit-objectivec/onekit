@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'onekit_Example' do
+  pod 'onekit', :path => '../'
+
+  target 'onekit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

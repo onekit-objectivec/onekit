@@ -1,0 +1,22 @@
+{
+  "name": "onekit",
+  "version": "0.1.0",
+  "summary": "A short description of onekit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangjinva/onekit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangjinva": "zhangjin_va@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangjinva/onekit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "onekit/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_onekit_Example {
+  umbrella header "Pods-onekit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

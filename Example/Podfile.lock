@@ -1,0 +1,16 @@
+PODS:
+  - onekit (0.1.0)
+
+DEPENDENCIES:
+  - onekit (from `../`)
+
+EXTERNAL SOURCES:
+  onekit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  onekit: 0647bbd5c78e01ebd8a4d14985b6694a5bd107a5
+
+PODFILE CHECKSUM: 3513589e412bf9455f6cfa958420eb0daae825d0
+
+COCOAPODS: 1.8.4
