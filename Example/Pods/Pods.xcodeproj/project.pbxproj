@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		0375F16EDBCBE92D5552040A5B93631D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		624973521493AA797C29F17E453A5770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		67D10E2725820E01001882DC /* LITERAL_.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E1D25820E01001882DC /* LITERAL_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67D10E2825820E01001882DC /* NoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E1E25820E01001882DC /* NoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67D10E2925820E01001882DC /* NoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E1F25820E01001882DC /* NoView.m */; };
-		67D10E2A25820E01001882DC /* BeforeAfter_.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2025820E01001882DC /* BeforeAfter_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67D10E2B25820E01001882DC /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2125820E01001882DC /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67D10E2C25820E01001882DC /* DOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E2225820E01001882DC /* DOM.m */; };
-		67D10E2D25820E01001882DC /* TheKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2325820E01001882DC /* TheKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67D10E2E25820E01001882DC /* TheKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E2425820E01001882DC /* TheKit.m */; };
-		67D10E2F25820E01001882DC /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E2525820E01001882DC /* Color.m */; };
-		67D10E3025820E01001882DC /* DOM.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2625820E01001882DC /* DOM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67D10E3525820E26001882DC /* onekit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E3425820E26001882DC /* onekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E9B25822082001882DC /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E9025822082001882DC /* Color.m */; };
+		67D10E9C25822082001882DC /* LITERAL_.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E9125822082001882DC /* LITERAL_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E9D25822082001882DC /* NoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E9225822082001882DC /* NoView.m */; };
+		67D10E9E25822082001882DC /* TheKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E9325822082001882DC /* TheKit.m */; };
+		67D10E9F25822082001882DC /* BeforeAfter_.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E9425822082001882DC /* BeforeAfter_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10EA025822083001882DC /* DOM.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E9525822082001882DC /* DOM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10EA125822083001882DC /* NoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E9625822082001882DC /* NoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10EA225822083001882DC /* onekit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E9725822082001882DC /* onekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10EA325822083001882DC /* TheKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E9825822082001882DC /* TheKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10EA425822083001882DC /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E9925822082001882DC /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10EA525822083001882DC /* DOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E9A25822082001882DC /* DOM.m */; };
 		6A929357DBC0ABACD3E0372A05FDF93A /* Pods-onekit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903035CF82F59C5E15CB3EF4BB8BCEEE /* Pods-onekit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B9D8D14CFC958FF1FEE6DB58475277B /* onekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8EFDA6E8AF3A6E6CB80506C680092D /* onekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96766254EE6009B2D30EE1D662BACE2C /* Pods-onekit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 282FCE96D94C0900E5C7620027A316F8 /* Pods-onekit_Example-dummy.m */; };
@@ -58,17 +58,17 @@
 		3F8EFDA6E8AF3A6E6CB80506C680092D /* onekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "onekit-umbrella.h"; sourceTree = "<group>"; };
 		5316A9ED5471CB372C107ABA6ACCF064 /* Pods_onekit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onekit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6086A33ADB84D9A04904D961304363B6 /* Pods-onekit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-onekit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		67D10E1D25820E01001882DC /* LITERAL_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LITERAL_.h; path = onekit/Classes/LITERAL_.h; sourceTree = "<group>"; };
-		67D10E1E25820E01001882DC /* NoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoView.h; path = onekit/Classes/NoView.h; sourceTree = "<group>"; };
-		67D10E1F25820E01001882DC /* NoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoView.m; path = onekit/Classes/NoView.m; sourceTree = "<group>"; };
-		67D10E2025820E01001882DC /* BeforeAfter_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeforeAfter_.h; path = onekit/Classes/BeforeAfter_.h; sourceTree = "<group>"; };
-		67D10E2125820E01001882DC /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = onekit/Classes/Color.h; sourceTree = "<group>"; };
-		67D10E2225820E01001882DC /* DOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DOM.m; path = onekit/Classes/DOM.m; sourceTree = "<group>"; };
-		67D10E2325820E01001882DC /* TheKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheKit.h; path = onekit/Classes/TheKit.h; sourceTree = "<group>"; };
-		67D10E2425820E01001882DC /* TheKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheKit.m; path = onekit/Classes/TheKit.m; sourceTree = "<group>"; };
-		67D10E2525820E01001882DC /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Color.m; path = onekit/Classes/Color.m; sourceTree = "<group>"; };
-		67D10E2625820E01001882DC /* DOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOM.h; path = onekit/Classes/DOM.h; sourceTree = "<group>"; };
-		67D10E3425820E26001882DC /* onekit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = onekit.h; path = onekit/Classes/onekit.h; sourceTree = "<group>"; };
+		67D10E9025822082001882DC /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Color.m; path = onekit/Classes/Color.m; sourceTree = "<group>"; };
+		67D10E9125822082001882DC /* LITERAL_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LITERAL_.h; path = onekit/Classes/LITERAL_.h; sourceTree = "<group>"; };
+		67D10E9225822082001882DC /* NoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoView.m; path = onekit/Classes/NoView.m; sourceTree = "<group>"; };
+		67D10E9325822082001882DC /* TheKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheKit.m; path = onekit/Classes/TheKit.m; sourceTree = "<group>"; };
+		67D10E9425822082001882DC /* BeforeAfter_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeforeAfter_.h; path = onekit/Classes/BeforeAfter_.h; sourceTree = "<group>"; };
+		67D10E9525822082001882DC /* DOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOM.h; path = onekit/Classes/DOM.h; sourceTree = "<group>"; };
+		67D10E9625822082001882DC /* NoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoView.h; path = onekit/Classes/NoView.h; sourceTree = "<group>"; };
+		67D10E9725822082001882DC /* onekit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = onekit.h; path = onekit/Classes/onekit.h; sourceTree = "<group>"; };
+		67D10E9825822082001882DC /* TheKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheKit.h; path = onekit/Classes/TheKit.h; sourceTree = "<group>"; };
+		67D10E9925822082001882DC /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = onekit/Classes/Color.h; sourceTree = "<group>"; };
+		67D10E9A25822082001882DC /* DOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DOM.m; path = onekit/Classes/DOM.m; sourceTree = "<group>"; };
 		70860C36D20C4585A883B1C1DC4E01CE /* Pods-onekit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onekit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B1C4E81B905629DEBAD0B81B0E5B4CF /* Pods-onekit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-onekit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7C8CB7F94676BAA07DC276BE49C3B047 /* onekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = onekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,17 +122,17 @@
 		584C4FCF78AFFF6B68518C0E71F3A308 /* onekit */ = {
 			isa = PBXGroup;
 			children = (
-				67D10E3425820E26001882DC /* onekit.h */,
-				67D10E2025820E01001882DC /* BeforeAfter_.h */,
-				67D10E2125820E01001882DC /* Color.h */,
-				67D10E2525820E01001882DC /* Color.m */,
-				67D10E2625820E01001882DC /* DOM.h */,
-				67D10E2225820E01001882DC /* DOM.m */,
-				67D10E1D25820E01001882DC /* LITERAL_.h */,
-				67D10E1E25820E01001882DC /* NoView.h */,
-				67D10E1F25820E01001882DC /* NoView.m */,
-				67D10E2325820E01001882DC /* TheKit.h */,
-				67D10E2425820E01001882DC /* TheKit.m */,
+				67D10E9425822082001882DC /* BeforeAfter_.h */,
+				67D10E9925822082001882DC /* Color.h */,
+				67D10E9025822082001882DC /* Color.m */,
+				67D10E9525822082001882DC /* DOM.h */,
+				67D10E9A25822082001882DC /* DOM.m */,
+				67D10E9125822082001882DC /* LITERAL_.h */,
+				67D10E9625822082001882DC /* NoView.h */,
+				67D10E9225822082001882DC /* NoView.m */,
+				67D10E9725822082001882DC /* onekit.h */,
+				67D10E9825822082001882DC /* TheKit.h */,
+				67D10E9325822082001882DC /* TheKit.m */,
 				5BA7A4FA4CC47DD9E6D5760E6E800934 /* Pod */,
 				73B42A8F21A6DF99A8BE377E1C3336E1 /* Support Files */,
 			);
@@ -258,14 +258,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D10E3525820E26001882DC /* onekit.h in Headers */,
-				67D10E2A25820E01001882DC /* BeforeAfter_.h in Headers */,
-				67D10E2725820E01001882DC /* LITERAL_.h in Headers */,
-				67D10E2B25820E01001882DC /* Color.h in Headers */,
-				67D10E2825820E01001882DC /* NoView.h in Headers */,
-				67D10E3025820E01001882DC /* DOM.h in Headers */,
+				67D10E9C25822082001882DC /* LITERAL_.h in Headers */,
+				67D10E9F25822082001882DC /* BeforeAfter_.h in Headers */,
 				6B9D8D14CFC958FF1FEE6DB58475277B /* onekit-umbrella.h in Headers */,
-				67D10E2D25820E01001882DC /* TheKit.h in Headers */,
+				67D10EA025822083001882DC /* DOM.h in Headers */,
+				67D10EA425822083001882DC /* Color.h in Headers */,
+				67D10EA225822083001882DC /* onekit.h in Headers */,
+				67D10EA325822083001882DC /* TheKit.h in Headers */,
+				67D10EA125822083001882DC /* NoView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +424,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D10E2E25820E01001882DC /* TheKit.m in Sources */,
-				67D10E2C25820E01001882DC /* DOM.m in Sources */,
-				67D10E2F25820E01001882DC /* Color.m in Sources */,
+				67D10E9E25822082001882DC /* TheKit.m in Sources */,
 				BC397FBB1CE6FE3F62256981DC1E8BB9 /* onekit-dummy.m in Sources */,
-				67D10E2925820E01001882DC /* NoView.m in Sources */,
+				67D10EA525822083001882DC /* DOM.m in Sources */,
+				67D10E9B25822082001882DC /* Color.m in Sources */,
+				67D10E9D25822082001882DC /* NoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
