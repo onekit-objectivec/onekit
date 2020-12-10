@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		0375F16EDBCBE92D5552040A5B93631D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		624973521493AA797C29F17E453A5770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		67D10E2725820E01001882DC /* LITERAL_.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E1D25820E01001882DC /* LITERAL_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E2825820E01001882DC /* NoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E1E25820E01001882DC /* NoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E2925820E01001882DC /* NoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E1F25820E01001882DC /* NoView.m */; };
+		67D10E2A25820E01001882DC /* BeforeAfter_.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2025820E01001882DC /* BeforeAfter_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E2B25820E01001882DC /* Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2125820E01001882DC /* Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E2C25820E01001882DC /* DOM.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E2225820E01001882DC /* DOM.m */; };
+		67D10E2D25820E01001882DC /* TheKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2325820E01001882DC /* TheKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E2E25820E01001882DC /* TheKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E2425820E01001882DC /* TheKit.m */; };
+		67D10E2F25820E01001882DC /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D10E2525820E01001882DC /* Color.m */; };
+		67D10E3025820E01001882DC /* DOM.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E2625820E01001882DC /* DOM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D10E3525820E26001882DC /* onekit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67D10E3425820E26001882DC /* onekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A929357DBC0ABACD3E0372A05FDF93A /* Pods-onekit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 903035CF82F59C5E15CB3EF4BB8BCEEE /* Pods-onekit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B9D8D14CFC958FF1FEE6DB58475277B /* onekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8EFDA6E8AF3A6E6CB80506C680092D /* onekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96766254EE6009B2D30EE1D662BACE2C /* Pods-onekit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 282FCE96D94C0900E5C7620027A316F8 /* Pods-onekit_Example-dummy.m */; };
 		AF1AD89881A29DF2AC190D1560DC7652 /* Pods-onekit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E31AB5B32236DDF650A905986DCB7FFC /* Pods-onekit_Tests-dummy.m */; };
 		BC397FBB1CE6FE3F62256981DC1E8BB9 /* onekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E31A88C818CCD6C0A32D1E4EB699B178 /* onekit-dummy.m */; };
 		C62C709E2604840D46C5EEC173F66865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C7D3014E089E6989871145A605B921E7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D52E4BE0DC6AA37D9B1AC54E8A6690AC /* ReplaceMe.m */; };
 		E90A4489FF700989C8CC886A515EF3B7 /* Pods-onekit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1C4E81B905629DEBAD0B81B0E5B4CF /* Pods-onekit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,34 +49,44 @@
 /* Begin PBXFileReference section */
 		01126A417DAF7726A9A80E85B9BF52E6 /* Pods-onekit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onekit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0301BB82C90F91C9CF8E373A54403804 /* onekit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "onekit-Info.plist"; sourceTree = "<group>"; };
-		072697A9B47F286189257B3D88FA1186 /* onekit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = onekit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		072697A9B47F286189257B3D88FA1186 /* onekit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = onekit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		094DB85347E6390117D6A3C96F47EBC9 /* Pods-onekit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-onekit_Tests-Info.plist"; sourceTree = "<group>"; };
 		1BFC2F14E2B6259830420BD65664D61C /* Pods-onekit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onekit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		282FCE96D94C0900E5C7620027A316F8 /* Pods-onekit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-onekit_Example-dummy.m"; sourceTree = "<group>"; };
 		2A9F8987C79856DF40D0DD4BABC167DD /* onekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = onekit.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F8EFDA6E8AF3A6E6CB80506C680092D /* onekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "onekit-umbrella.h"; sourceTree = "<group>"; };
-		5316A9ED5471CB372C107ABA6ACCF064 /* Pods_onekit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_onekit_Tests.framework; path = "Pods-onekit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5316A9ED5471CB372C107ABA6ACCF064 /* Pods_onekit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onekit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6086A33ADB84D9A04904D961304363B6 /* Pods-onekit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-onekit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67D10E1D25820E01001882DC /* LITERAL_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LITERAL_.h; path = onekit/Classes/LITERAL_.h; sourceTree = "<group>"; };
+		67D10E1E25820E01001882DC /* NoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoView.h; path = onekit/Classes/NoView.h; sourceTree = "<group>"; };
+		67D10E1F25820E01001882DC /* NoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoView.m; path = onekit/Classes/NoView.m; sourceTree = "<group>"; };
+		67D10E2025820E01001882DC /* BeforeAfter_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeforeAfter_.h; path = onekit/Classes/BeforeAfter_.h; sourceTree = "<group>"; };
+		67D10E2125820E01001882DC /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = onekit/Classes/Color.h; sourceTree = "<group>"; };
+		67D10E2225820E01001882DC /* DOM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DOM.m; path = onekit/Classes/DOM.m; sourceTree = "<group>"; };
+		67D10E2325820E01001882DC /* TheKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheKit.h; path = onekit/Classes/TheKit.h; sourceTree = "<group>"; };
+		67D10E2425820E01001882DC /* TheKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheKit.m; path = onekit/Classes/TheKit.m; sourceTree = "<group>"; };
+		67D10E2525820E01001882DC /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Color.m; path = onekit/Classes/Color.m; sourceTree = "<group>"; };
+		67D10E2625820E01001882DC /* DOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOM.h; path = onekit/Classes/DOM.h; sourceTree = "<group>"; };
+		67D10E3425820E26001882DC /* onekit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = onekit.h; path = onekit/Classes/onekit.h; sourceTree = "<group>"; };
 		70860C36D20C4585A883B1C1DC4E01CE /* Pods-onekit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onekit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B1C4E81B905629DEBAD0B81B0E5B4CF /* Pods-onekit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-onekit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7C8CB7F94676BAA07DC276BE49C3B047 /* onekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = onekit.framework; path = onekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8CB7F94676BAA07DC276BE49C3B047 /* onekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = onekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		903035CF82F59C5E15CB3EF4BB8BCEEE /* Pods-onekit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-onekit_Example-umbrella.h"; sourceTree = "<group>"; };
 		957868DB95935FC40F758B49EB6C6C91 /* Pods-onekit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-onekit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		981F99AD7E0CCE4CCDD9DBA8CD8EB14B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9888A14973751D09E400B46BCFE297BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		981F99AD7E0CCE4CCDD9DBA8CD8EB14B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9888A14973751D09E400B46BCFE297BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9BED8D5E605B8057AA7E38D0456A8C87 /* Pods-onekit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-onekit_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AEB1117BF7A2C83C170B0587E78D8734 /* Pods-onekit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-onekit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B18878FCDD131E2DF56AE31DC5B547B0 /* onekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = onekit.modulemap; sourceTree = "<group>"; };
 		B1FDA5776E1F71346BDE5A7C67918EC5 /* Pods-onekit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-onekit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C2D4357ACA1D1BB389DEFBE647001D97 /* Pods-onekit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-onekit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD73B2DD1ED6D3DDD200200B90B61EC1 /* Pods-onekit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-onekit_Example-Info.plist"; sourceTree = "<group>"; };
-		D52E4BE0DC6AA37D9B1AC54E8A6690AC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = onekit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E2149D5E7715A81E13BE711BFFF233D2 /* Pods-onekit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-onekit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E31A88C818CCD6C0A32D1E4EB699B178 /* onekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "onekit-dummy.m"; sourceTree = "<group>"; };
 		E31AB5B32236DDF650A905986DCB7FFC /* Pods-onekit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-onekit_Tests-dummy.m"; sourceTree = "<group>"; };
-		E923DEB70026A6524B9D5BB1C662286A /* Pods_onekit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_onekit_Example.framework; path = "Pods-onekit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E923DEB70026A6524B9D5BB1C662286A /* Pods_onekit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onekit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5768DDE468C931FB4F13521E0D900F /* Pods-onekit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-onekit_Example.modulemap"; sourceTree = "<group>"; };
 		FA44534C491CC0F96FCCE671560A313F /* onekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "onekit-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +122,17 @@
 		584C4FCF78AFFF6B68518C0E71F3A308 /* onekit */ = {
 			isa = PBXGroup;
 			children = (
-				D52E4BE0DC6AA37D9B1AC54E8A6690AC /* ReplaceMe.m */,
+				67D10E3425820E26001882DC /* onekit.h */,
+				67D10E2025820E01001882DC /* BeforeAfter_.h */,
+				67D10E2125820E01001882DC /* Color.h */,
+				67D10E2525820E01001882DC /* Color.m */,
+				67D10E2625820E01001882DC /* DOM.h */,
+				67D10E2225820E01001882DC /* DOM.m */,
+				67D10E1D25820E01001882DC /* LITERAL_.h */,
+				67D10E1E25820E01001882DC /* NoView.h */,
+				67D10E1F25820E01001882DC /* NoView.m */,
+				67D10E2325820E01001882DC /* TheKit.h */,
+				67D10E2425820E01001882DC /* TheKit.m */,
 				5BA7A4FA4CC47DD9E6D5760E6E800934 /* Pod */,
 				73B42A8F21A6DF99A8BE377E1C3336E1 /* Support Files */,
 			);
@@ -228,7 +258,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D10E3525820E26001882DC /* onekit.h in Headers */,
+				67D10E2A25820E01001882DC /* BeforeAfter_.h in Headers */,
+				67D10E2725820E01001882DC /* LITERAL_.h in Headers */,
+				67D10E2B25820E01001882DC /* Color.h in Headers */,
+				67D10E2825820E01001882DC /* NoView.h in Headers */,
+				67D10E3025820E01001882DC /* DOM.h in Headers */,
 				6B9D8D14CFC958FF1FEE6DB58475277B /* onekit-umbrella.h in Headers */,
+				67D10E2D25820E01001882DC /* TheKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +351,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,8 +418,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D10E2E25820E01001882DC /* TheKit.m in Sources */,
+				67D10E2C25820E01001882DC /* DOM.m in Sources */,
+				67D10E2F25820E01001882DC /* Color.m in Sources */,
 				BC397FBB1CE6FE3F62256981DC1E8BB9 /* onekit-dummy.m in Sources */,
-				C7D3014E089E6989871145A605B921E7 /* ReplaceMe.m in Sources */,
+				67D10E2925820E01001882DC /* NoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +460,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/onekit/onekit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/onekit/onekit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/onekit/onekit.modulemap";
 				PRODUCT_MODULE_NAME = onekit;
@@ -452,7 +492,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-onekit_Tests/Pods-onekit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-onekit_Tests/Pods-onekit_Tests.modulemap";
@@ -495,6 +535,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -517,13 +558,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -545,7 +585,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/onekit/onekit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/onekit/onekit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/onekit/onekit.modulemap";
 				PRODUCT_MODULE_NAME = onekit;
@@ -586,6 +626,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -611,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -640,7 +681,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-onekit_Tests/Pods-onekit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-onekit_Tests/Pods-onekit_Tests.modulemap";
@@ -674,7 +715,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-onekit_Example/Pods-onekit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-onekit_Example/Pods-onekit_Example.modulemap";
@@ -708,7 +749,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-onekit_Example/Pods-onekit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-onekit_Example/Pods-onekit_Example.modulemap";

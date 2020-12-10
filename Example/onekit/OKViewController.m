@@ -7,7 +7,7 @@
 //
 
 #import "OKViewController.h"
-
+#import <onekit.h>
 @interface OKViewController ()
 
 @end
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"xxxxxxx %@",[Color parse:@"#ff0000"]);
 }
 
 - (void)didReceiveMemoryWarning
